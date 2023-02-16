@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WWW Timeline</title>
+
+    <style>
+        body {
+        max-width: 600px;
+        min-width: none;
+        margin-left: auto;
+        margin-right: auto;
+
+        font-family: "Poppins", sans-serif;
+      }
+
+      #home {
+        text-align: center;
+        background-color: #21252b;-radius: 12px;
+        padding: 10px;
+        border-radius: 12px;
+      }
+
+      h1 {
+        color: #43a3ef;
+      }
+
+      h6 {
+        color: #A074C4;
+        margin-top: -20px;
+      }
+
+      #timeline {
+        background-color: #21252b;
+        border-radius: 12px;
+        padding: 10px;
+        margin-top: 10px;
+      }
+
+      table {
+        margin-left: auto;
+        margin-right: auto;
+        color: #abb2bf;
+        border-radius: 12px;
+        border-collapse: separate;
+        border-spacing: 0 10px;
+      }
+
+      table tr:nth-child(even){background-color: #16181C;}
+      table tr:hover {background-color: #323842;}
+
+      table caption, a{
+        font-style: italic;
+        color: #d19a66;
+      }
+
+      strong {
+        color: #e06c75;
+        font-size: 25px;
+      }
+
+      table td {
+        padding: 10px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+      }
+
+      table th {
+        padding: 10px;
+        color: #98c379;
+        font-size: 25px;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+      }
+
+      img {
+        border-radius: 12px;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+    </style>
+</head>
+<body bgcolor="#282C34">
+    <div id="home">
+        <h1>World Wide Web Timeline</h1>
+        <h6>by Coré Husaí Martínez Belmonte</h6>
+      </div>
+
+      <div id="timeline">
+        <table>
+            <caption>Línea de tiempo</caption>
+
+            <tr>
+                <th>1957</th>
+                <td><strong>Hola, ARPA</strong><br>Creación de ARPA (Advanced Research Projects Agency).</td>
+            </tr>
+
+            <tr>
+                <th>1961</th>
+                <td><strong>Conmutación de paquetes</strong><br><img src="img/lk.jpg" /><br>Leonard Kleinrock teorizó que se podían conmutar los paquetes.</td>
+            </tr>
+
+            <tr>
+                <th>1969</th>
+                <td><strong>Inicia ARPAnet</strong><br>Precursor de Internet. Tenía una arquitectura distribuida, ¿por?
+                    Debía persistir ante un ataque nuclear.</td>
+            </tr>
+
+            <tr>
+                <th>1978</th>
+                <td><strong>SQL en acción</strong><br>Inicialmente como lenguaje de consulta, posteriormente ampliado con
+                    construcciones de programación.</td>
+            </tr>
+
+            <tr>
+                <th>1982</th>
+                <td><strong>Aparece TCP/IP</strong><br><img src="img/tcp.webp" /><br>Creación del protocolo TCP/IP, que ha sido usado hasta la
+                    actualidad.</td>
+            </tr>
+
+            <tr>
+                <th>1989</th>
+                <td><strong>Integración de OSI</strong><br>Los protocolos OSI (Open Systems Interconnection) se integran a
+                    ARPAnet.</td>
+            </tr>
+
+            <tr>
+                <th>1990</th>
+                <td><strong>Adiós, ARPAnet</strong><br>ARPAnet se desintegra, dando lugar a MILnet e Internet.</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">1991</th>
+                <td><strong>Llega WWW</strong><br><img src="img/tbl.jpg" /><br>Tim Berners-Lee crea la World Wide Web, también conocida como WWW,
+                    W3 o la Web.</td>
+            </tr>
+
+            <tr>
+                <td><strong>Empieza HTML</strong><br>Además de crear la WWW, propuso un sistema de hipertexto para compartir
+                    documentos.</td>
+            </tr>
+
+            <tr>
+                <th>2000's</th>
+                <td><strong>Web 2.0</strong><br>Aparece la Web 2.0 que se preocupa en integrar a los usuarios con
+                    las páginas, es decir, añade dinamismo a la Web 1.0. Su principal
+                    preocupación es el usuario.</td>
+            </tr>
+
+            <tr>
+                <th>2006</th>
+                <td><strong>Demasiados usuarios</strong><br>Internet alcanzó los 1,100 millones de usuarios, esperando que
+                    superen los 2,000 millones.</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">2010's</th>
+                <td><strong>Web 3.0</strong><br><img src="img/web3.jpg" /><br>Esta Web busca que su contenido pueda ser entendido por las máquinas
+                    naturalmente, lo que facilita su búsqueda. Además, aparecen los
+                    metadatos.</td>
+            </tr>
+
+            <tr>
+                <td><strong>Web 4.0</strong><br><img src="img/web4.jpg" /><br>Las máquinas inteligentes empiezan a integrarse, lo que significa
+                    que la inteligencia artificial es su núcleo. Las búsquedas
+                    personalizadas también se encuentran aquí.</td>
+            </tr>
+
+            <tfoot>
+                <tr>
+                    <td colspan="2">
+                        <a href="#home">Regresar</a>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+      </div>
+</body>
+</html>
